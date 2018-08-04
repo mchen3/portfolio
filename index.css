@@ -1,0 +1,95 @@
+
+
+#mainNav.navbar-shrink {
+  background-color:gray;
+}
+
+/* .bg-light {
+  background-color:gray !important;
+} */
+
+.about-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom,#161616 0,rgba(105, 18, 18, 0.9) 75%,rgba(243, 14, 14, 0.8) 100%);
+}
+
+
+.about-section body {
+
+  color: white;
+}
+
+.about-section p {
+  font-size: 25px;
+
+}
+
+
+.container-fluid {
+  color: white;
+
+}
+
+
+.port-header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  /* background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-masthead.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+  background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(./img/bluenight.jpg);
+
+}
+
+.port-header h1 {
+  /* font-family: 'Varela Round'; */
+  font-family: 'Comfortaa', cursive;
+
+  font-size: 2.5rem;
+  /* line-height: 2.5rem; */
+  letter-spacing: .8rem;
+  /* background: -webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0)); */
+  background: white;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
+.port-header h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .port-header h1 {
+    /* font-size: 4rem; */
+    /* line-height: 4rem; */
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .port-header {
+    height: 100vh;
+    padding: 0;
+  }
+  .port-header h1 {
+    font-size: 2.5rem;
+    /* line-height: 6.5rem; */
+    letter-spacing: 0.8rem;
+  }
+  .port-header h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+
+
