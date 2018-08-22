@@ -8,7 +8,12 @@ body {
 
 /*   Particles  */
 #particle {
-  background-color: rgba(0, 0, 0, 1);
+  /* background-color: rgba(0, 0, 102, 1); */
+  /* background-color: cyan; */
+    /* background-color: rgba(0, 204, 204, 1); */
+    background-color: rgba(0, 190, 190, 1);
+
+
   position: fixed;
   top:0;
   right:0;
